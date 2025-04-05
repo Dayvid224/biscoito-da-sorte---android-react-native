@@ -3,25 +3,26 @@ Aqui está um resumo simplificado do guia:
 1. **Configuração Inicial**:
    - Certifique-se de configurar o ambiente React Native usando o [guia oficial](https://reactnative.dev/docs/set-up-your-environment).
 
-2. **Iniciar Metrô**:
+2. **Iniciar Metro**:
    - Rode o servidor Metro (ferramenta de build) usando:
      ```sh
-     npm início
+     npm start
      ```
      Ou:
      ```sh
-     início do fio
+     yarn start
      ```
 
-3. **Construir e executar o aplicativo**:
+3. **Construir e Executar o App**:
    - **Android**: Use `npm run android` ou `yarn android`.
-   - **iOS**: Executar:
+   - **iOS**: Execute:
      ```sh
-     instalação de pacote
-     pacote de instalação do pod exec
-     npm executa ios
+     bundle install
+     bundle exec pod install
+     npm run ios
      ```
-     Ou `fio ios`.
+     Ou `yarn ios`.
 
-4. **Modificar o aplicativo**:
-   - Faça alterações no arquivo `App.js` e veja as alterações automaticamente com o [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+4. **Modificar o App**:
+   - Faça alterações no arquivo `App.js` e veja as mudanças automaticamente com o [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+
